@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*aligned item center rather than left*/
+    height: 100vh;
+    background-color:black; /* Added background color */
+}
+
+.container {
+    text-align: center;
+    background-color: #fff; /* Added background color */
+    padding: 20px;
+    border-radius: 10px; /* Added border radius */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Added box shadow */
+}
+
+img {
+    width: 350px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%; /* Added border radius to make the image round */
+    border: 5px solid #ccc; /* Added border */
+}
+
+h1 {
+    margin-top: 10px;
+    color: #333; /* Added text color */
+}
+
+h2 {
+    margin-top: 10px;
+    color: #333; /* Added text color */
+}
+
+p {
+    color: #666; /* Added text color */
+}
+
+button {
+    background-color:black; /* Added button background color */
+    color: whitesmoke; /* Added button text color */
+    padding: 10px 20px; /* Added button padding */
+    font-size: 16px; /* Added button font size */
+    border: none; /* Removed button border */
+    border-radius: 5px; /* Added button border radius */
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color:lightseagreen; /* Button background color on hover */
+}
+
+a {
+    color:whitesmoke;
+}

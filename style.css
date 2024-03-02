@@ -1,0 +1,56 @@
+html {
+    font-size: 20px;
+}
+
+* {
+    box-sizing: border-box;
+    /* border: 1px solid goldenrod; */
+}
+
+body {
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Noto Serif', Georgia, serif;
+}
+
+p {
+    color:whitesmoke;
+    text-align: center;
+    font-family: 'Pacifico-Regular', cursive;
+    font-style: oblique;
+}
+
+h1 {
+    color:lightseagreen;
+    text-align: center;
+}
+
+h2 {
+    color:lightseagreen;
+    text-align: left;
+}
+
+h3 {
+    color:lightseagreen;
+    text-align: center;
+}
+
+h4 {
+    color:deeppink;
+}
+
+h5 {
+    color:whitesmoke;
+}
+
+h6 {
+    font-family: 'Pacifico-Regular', cursive;
+}
+
+a {
+    color:whitesmoke;
+}
+
+a:hover, a:active {
+    color:whitesmoke;
+}
